@@ -30,4 +30,4 @@ jobs:
       - name: Test with pytest
         run: |
           pytest test.py
-          coverage run -m test.py
+          coverage run -m pytest test.py
